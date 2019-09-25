@@ -2,3 +2,12 @@
 *.jl.*.cov
 *.jl.mem
 deps/deps.jl
+
+.idea/
+.ipynb_checkpoints/
+.DS_Store/
+src/.DS_Store/
+docs/src/.DS_Store/
+.png
+examples/.ipynb_checkpoints/
+docs/build/
