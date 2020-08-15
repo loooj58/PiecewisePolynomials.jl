@@ -13,8 +13,8 @@ jobs:
 
       julia: 1.1
 
-      stript:
-        - julia -e 'using Pkg; Pkg.develop(PackageSpec(path=pwd())); Pkg.instantiate(); Pkg.test(coverage=true)'
+      script:
+        - julia -e 'using Pkg; Pkg.build(; verbose = true); Pkg.test(coverage=true)'
 
       after_success: skip
 
